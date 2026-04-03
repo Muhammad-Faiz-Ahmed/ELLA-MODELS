@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    /* background-color: brown; */
+
+    .main-1{
+        width: 2%;
+        background-color: aqua;
+    }
+    .main-2{
+        width: 96%;
+        background-color: blueviolet;
+    }
+    .main-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2%;
+        background-color: aquamarine;
+    }
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    justify-content: space-between;
+
+    .nav-2{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    
+        .contact{
+            color: rgb(237, 101, 38);
+        }
+    }
+}
+
+.contact-us{
+    padding: 40px;
+    display: flex;
+    font-weight: bold;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    color: rgb(237, 101, 38);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.social-icons{
+    color: white;
+}
